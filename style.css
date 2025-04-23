@@ -1,0 +1,14 @@
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  margin: 20px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.card.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
