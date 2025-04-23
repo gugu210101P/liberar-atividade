@@ -1,0 +1,7 @@
+cd caminho/para/liberador-atividade
+git init
+git add .
+git commit -m "Primeiro commit - Projeto de liberação de atividade"
+git branch -M main
+git remote add origin https://github.com/seu-usuario/liberador-atividade.git
+git push -u origin main
